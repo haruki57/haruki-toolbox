@@ -23,7 +23,6 @@ const ActiveLink = ({
   const childClassName = (child as any)?.props?.className || "";
 
   // pages/index.js will be matched via props.href
-  // pages/about.js will be matched via props.href
   // pages/[slug].js will be matched via props.as
   const className =
     asPath === href || asPath === as
@@ -38,9 +37,5 @@ const ActiveLink = ({
     </Link>
   );
 };
-
-// ActiveLink.propTypes = {
-//   activeClassName: PropTypes.string.isRequired,
-// }
 
 export default ActiveLink;
