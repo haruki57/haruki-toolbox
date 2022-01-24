@@ -8,11 +8,13 @@ interface LayoutProps {
 
 const Layout = ({ children }: LayoutProps) => {
   return (
-    <div className="px-8">
-      <Nav />
-      <div>{children}</div>
-      <Footer />
-    </div>
+    <>
+      <div className="px-8 my-4">
+        <Nav />
+        <div className="px-4 my-4">{children}</div>
+        <Footer />
+      </div>
+    </>
   );
 };
 

@@ -34,8 +34,8 @@ const Nav = () => (
         </ActiveLink>
       </li>
       <li className="mx-4">
-        <ActiveLink activeClassName="active" href="/xsvToSql">
-          <a className="nav-link">xSV to SQL</a>
+        <ActiveLink activeClassName="active" href="/tsvToSql">
+          <a className="nav-link">TSV to SQL</a>
         </ActiveLink>
       </li>
     </ul>
